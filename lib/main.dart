@@ -18,13 +18,10 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    // SaveUser().clearCache();
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Color.fromRGBO(209, 144, 226, 1.0),
-        accentColor: Color.fromRGBO(116, 169, 239, 1.0),
         textTheme: TextTheme(
           bodyText1: GoogleFonts.nunito(),
           bodyText2: GoogleFonts.nunito(),

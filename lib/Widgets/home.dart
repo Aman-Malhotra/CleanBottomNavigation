@@ -84,6 +84,7 @@ class Home extends StatelessWidget {
           ),
         ),
       ),
+      backgroundColor: homePm.bottomData[homePm.getSelected].color,
       bottomNavigationBar: bottomBar(),
     );
   }
